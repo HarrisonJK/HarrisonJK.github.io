@@ -1,0 +1,17 @@
+{
+  "name": "harrisonjk.github.io",
+  "version": "1.0.0",
+  "description": "Harrison Katapodis Portfolio",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.77.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
