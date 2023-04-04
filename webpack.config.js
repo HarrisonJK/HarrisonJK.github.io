@@ -16,7 +16,7 @@ module.exports = {
   //plugins
   plugins: [
     new HtmlWebpackPlugin({
-      title: "Demo",
+      title: "HJK | Harrison James Katapodis Personal Website",
       filename: "index.html",
       template: path.resolve(__dirname, "src/temp.html"),
     }),
