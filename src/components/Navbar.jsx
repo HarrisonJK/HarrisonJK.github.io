@@ -5,7 +5,7 @@ export function Navbar() {
     <nav>
       <ul>
         <li className="test">
-          <img src="../../public/HKlogo.svg" />{" "}
+          <img src="/HKlogo.svg" />{" "}
         </li>
         <li>
           <Link to="/">About</Link>
