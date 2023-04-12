@@ -1,4 +1,15 @@
-:root {
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Lato&family=Montserrat&family=Roboto&family=Roboto+Mono&display=swap");
+@import "./styles/Navbar.css";
+
+* {
+  font-family: "Lato";
+}
+
+.test {
+  width: 200px;
+}
+
+/* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -66,4 +77,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
+} */
