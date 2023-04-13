@@ -6,7 +6,7 @@ export function Navbar() {
       <div class="container">
         <nav class="navbarSite">
           <img src="HKLogo.svg" id="navLogo" />
-          <ul>
+          <ul class="navbarTabs">
             <li>
               <Link to="/">About</Link>
             </li>

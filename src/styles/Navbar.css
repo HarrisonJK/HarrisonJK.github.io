@@ -12,3 +12,11 @@ nav {
 .test {
   width: 200px;
 }
+
+.navbarTabs {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+}
