@@ -3,8 +3,10 @@
 
 * {
   font-family: "Lato";
+  margin: 0;
 }
 
 #navLogo {
-  width: 3rem;
+  width: 4rem;
+  /* width: 10vw; */
 }

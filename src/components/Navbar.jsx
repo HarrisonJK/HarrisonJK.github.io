@@ -7,16 +7,16 @@ export function Navbar() {
         <img src="HKLogo.svg" id="navLogo" />
       </div>
       <ul class="navbarTabs">
-        <li class="flatten">
+        <li class="navItem">
           <Link to="/">About</Link>
         </li>
-        <li class="flatten">
+        <li class="navItem">
           <Link to="/Portfolio">Portfolio</Link>
         </li>
-        <li class="flatten">
+        <li class="navItem">
           <Link to="/Resume">Resume</Link>
         </li>
-        <li class="flatten">
+        <li class="navItem">
           <Link to="/Contact">Contact</Link>
         </li>
       </ul>
