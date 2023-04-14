@@ -1,22 +1,27 @@
-nav {
-  position: sticky;
-  top: 0;
+.navbarContainer {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
+  align-items: center;
   padding: 1.5rem 2rem;
   background-color: #eaeaea;
-  transition: top 500ms ease-in-out;
 }
 
-.test {
-  width: 200px;
+.navbarSite {
+  align-items: center;
 }
 
 .navbarTabs {
+  display: inline-block;
   list-style: none;
   margin: 0;
   padding: 0;
 }
-li {
+
+.flatten {
+  display: inline-block;
+  margin: 0 1rem;
+}
+
+body {
+  margin: 0;
 }
