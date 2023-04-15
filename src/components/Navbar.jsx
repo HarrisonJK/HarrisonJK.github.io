@@ -2,22 +2,30 @@ import { Link } from "react-router-dom";
 
 export function Navbar() {
   return (
-    <nav class="navbarContainer">
-      <div class="logoContainer">
+    <nav className="navbarContainer">
+      <div className="logoContainer">
         <img src="HKLogo.svg" id="navLogo" />
       </div>
-      <ul class="navbarTabs">
-        <li class="navItem">
-          <Link to="/">About</Link>
+      <ul className="navbarTabs">
+        <li className="navItem">
+          <Link to="/" className="navItemStyling">
+            About
+          </Link>
         </li>
-        <li class="navItem">
-          <Link to="/Portfolio">Portfolio</Link>
+        <li className="navItem">
+          <Link to="/Portfolio" className="navItemStyling">
+            Portfolio
+          </Link>
         </li>
-        <li class="navItem">
-          <Link to="/Resume">Resume</Link>
+        <li className="navItem">
+          <Link to="/Resume" className="navItemStyling">
+            Resume
+          </Link>
         </li>
-        <li class="navItem">
-          <Link to="/Contact">Contact</Link>
+        <li className="navItem">
+          <Link to="/Contact" className="navItemStyling">
+            Contact
+          </Link>
         </li>
       </ul>
       {/* <button class="mobileHamburger">

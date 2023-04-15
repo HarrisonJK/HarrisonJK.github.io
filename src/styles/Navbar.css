@@ -24,5 +24,7 @@
   /* font-size: 3vw; */
 }
 
-.nav-link {
+.navItemStyling {
+  color: #000;
+  text-decoration: none;
 }
