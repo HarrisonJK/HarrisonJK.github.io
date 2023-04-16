@@ -1,9 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&family=Lato&family=Montserrat&family=Roboto&family=Roboto+Mono&display=swap");
 @import "./styles/Navbar.css";
+@import "./styles/About.css";
 
-* {
+body {
   font-family: "Lato";
   margin: 0;
+  background-color: rgb(126, 126, 159);
 }
 
 #navLogo {
