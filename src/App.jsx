@@ -6,11 +6,12 @@ import { About } from "./components/About";
 import { Portfolio } from "./components/Portfolio";
 import { Resume } from "./components/Resume";
 import { Contact } from "./components/Contact";
+import { Waves } from "./components/Waves";
 
 function App() {
   const [count, setCount] = useState(0);
   return (
-    <div className="Jack">
+    <div>
       <Navbar />
       <Routes>
         <Route path="/" element={<About />} />
@@ -18,6 +19,7 @@ function App() {
         <Route path="/Resume" element={<Resume />} />
         <Route path="/Contact" element={<Contact />} />
       </Routes>
+      <Waves />
     </div>
   );
 }
