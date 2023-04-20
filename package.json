@@ -12,8 +12,10 @@
     "preview": "vite preview --port 8080"
   },
   "dependencies": {
+    "kute.js": "^2.2.4",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "snapsvg": "^0.5.1"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",
