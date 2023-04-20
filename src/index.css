@@ -20,7 +20,3 @@ body {
   bottom: 0;
   z-index: -1;
 }
-
-.kefaWaves {
-  background-image: url("./assets/kefaWaves1.svg");
-}
