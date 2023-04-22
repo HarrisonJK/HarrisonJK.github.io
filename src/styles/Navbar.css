@@ -20,11 +20,49 @@
 .navItem {
   display: inline-block;
   margin: 0 2rem;
+  padding: 0.5rem;
   font-size: 1.2rem;
   /* font-size: 3vw; */
+  position: relative;
 }
 
 .navItemStyling {
   color: #000;
   text-decoration: none;
+}
+
+.navItem::before,
+.navItem::after {
+  content: "";
+  position: absolute;
+  display: block;
+  border: 0px solid transparent;
+  width: 0%;
+  height: 0%;
+  transition: all 0.15s ease;
+}
+.navItem::before {
+  width: 0%;
+  height: 0%;
+  right: 0;
+  bottom: 0;
+  border-bottom: 2px solid transparent;
+  border-right: 2px solid transparent;
+  /* transition-delay: 0.15s; */
+} /* This is the bottom right corner */
+
+.navItem::after {
+  width: 0%;
+  height: 0%;
+  top: 0;
+  left: 0;
+  border-top: 2px solid transparent;
+  border-left: 2px solid transparent;
+} /* This is the top left corner */
+
+.navItem:hover::before,
+.navItem:hover::after {
+  width: 10px;
+  height: 10px;
+  border-color: #000000;
 }
