@@ -64,5 +64,5 @@
 .navItem:hover::after {
   width: 10px;
   height: 10px;
-  border-color: #000000;
+  border-color: #000;
 }

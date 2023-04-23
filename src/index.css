@@ -14,9 +14,8 @@ body {
 }
 
 .spacer {
-  /* aspect-ratio: 960/200; */
-  width: 100%;
   position: fixed;
+  width: 100%;
   bottom: 0;
   z-index: -1;
 }

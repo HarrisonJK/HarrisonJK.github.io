@@ -1,5 +1,4 @@
-import kefaWaves1 from "../assets/kefaWaves1.svg";
-import kefaWaves2 from "../assets/kefaWaves2.svg";
+import github from "../assets/github.svg";
 
 export function Waves() {
   return (
@@ -60,6 +59,12 @@ M0,57.52l21.5,5c21.5,5,64.5,15,107.3,19.7,42.9,4.6,85.5,4,128.4,4.5,42.8,.5,85.8
           />
         </path>
       </svg>
+      <div className="center">
+        <footer className="footer">
+          Waves Inspired by Kefalonia 🇬🇷 | Harrison Katapodis© | & my
+          grandparents who braved them 🇺🇸
+        </footer>
+      </div>
     </div>
   );
 }
