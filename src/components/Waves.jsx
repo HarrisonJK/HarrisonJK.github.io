@@ -1,5 +1,3 @@
-import github from "../assets/github.svg";
-
 export function Waves() {
   return (
     <div className="spacer kefaWaves">
