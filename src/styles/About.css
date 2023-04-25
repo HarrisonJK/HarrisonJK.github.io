@@ -12,28 +12,7 @@
   justify-content: center;
 }
 
-span:before {
-  content: "";
-  animation: wordChange infinite 8s;
-  color: rgb(0, 0, 0);
-}
-@keyframes wordChange {
-  0% {
-    content: "Photographer";
-  }
-  20% {
-    content: "Freelancer";
-  }
-  40% {
-    content: "Presenter";
-  }
-  60% {
-    content: "Designer";
-  }
-  80% {
-    content: "Developer";
-  }
-  100% {
-    content: "Businessman";
-  }
+.noStyle {
+  color: black;
+  text-decoration: none;
 }
