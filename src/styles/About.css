@@ -1,10 +1,9 @@
 .footer {
   font-size: 2vmin;
-  position: absolute; /* Set the footer to absolute positioning */
-  bottom: 0%; /* Position the footer at the bottom of the container */
+  position: absolute;
+  bottom: 0%;
   text-align: center;
   z-index: 1;
-  padding: 10px;
 }
 
 .center {
@@ -20,5 +19,5 @@
 .noStyle:hover {
   color: rgb(255, 255, 255);
   text-decoration: none;
-  transition: 1s;
+  transition: 0.75s;
 }

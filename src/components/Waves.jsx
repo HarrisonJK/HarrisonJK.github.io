@@ -2,7 +2,7 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 export function Waves() {
   return (
-    <div className="spacer kefaWaves">
+    <div className="spacer">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 186">
         <path id="wave1" fill="#32def6">
           <animate
