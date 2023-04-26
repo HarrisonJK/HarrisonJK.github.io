@@ -1,0 +1,11 @@
+.footer {
+  background-color: transparent;
+  text-align: center;
+  font-size: 2.5vmin;
+  padding: 1vmin;
+}
+@media (max-width: 430px) or (max-height: 932px) {
+  .footer {
+    font-size: 2.5vmax;
+  }
+}

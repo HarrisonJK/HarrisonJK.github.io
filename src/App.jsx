@@ -7,6 +7,7 @@ import { Portfolio } from "./components/Portfolio";
 import { Resume } from "./components/Resume";
 import { Contact } from "./components/Contact";
 import { Waves } from "./components/Waves";
+import { Footer } from "./components/Footer";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -20,6 +21,7 @@ function App() {
         <Route path="/Contact" element={<Contact />} />
       </Routes>
       <Waves />
+      <Footer />
     </div>
   );
 }

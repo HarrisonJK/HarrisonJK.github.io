@@ -1,8 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&family=Lato&family=Montserrat&family=Roboto&family=Roboto+Mono&display=swap");
 @import "./styles/Navbar.css";
 @import "./styles/About.css";
+@import "./styles/Waves.css";
+@import "./styles/Footer.css";
 
 body {
+  position: relative;
   font-family: "Lato";
   margin: 0;
   background-color: rgb(126, 126, 159);
@@ -11,11 +14,4 @@ body {
 #navLogo {
   width: 4rem;
   /* width: 10vw; */
-}
-
-.spacer {
-  position: fixed;
-  width: 100%;
-  bottom: 0;
-  z-index: -1;
 }

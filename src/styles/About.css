@@ -1,11 +1,3 @@
-.footer {
-  font-size: 2vmin;
-  position: absolute;
-  bottom: 0%;
-  text-align: center;
-  z-index: 1;
-}
-
 .center {
   display: flex;
   justify-content: center;

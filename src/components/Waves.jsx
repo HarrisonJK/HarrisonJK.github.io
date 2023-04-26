@@ -1,5 +1,3 @@
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
-
 export function Waves() {
   return (
     <div className="spacer">
@@ -59,31 +57,6 @@ M0,57.52l21.5,5c21.5,5,64.5,15,107.3,19.7,42.9,4.6,85.5,4,128.4,4.5,42.8,.5,85.8
           />
         </path>
       </svg>
-      <div className="center">
-        <footer className="footer">
-          Waves Inspired by Kefalonia 🇬🇷 |&nbsp;
-          <a
-            className="fa fa-linkedin noStyle"
-            href="https://www.linkedin.com/in/harrisonhjk/"
-          ></a>
-          &nbsp;
-          <a
-            className=" fa fa-github noStyle"
-            href="https://github.com/HarrisonJK"
-          ></a>
-          &nbsp; Harrison Katapodis© &nbsp;
-          <a
-            className="fa fa-instagram noStyle"
-            href="https://www.instagram.com/harrisonhjk_/"
-          ></a>
-          &nbsp;
-          <a
-            className="fa fa-envelope noStyle"
-            href="mailto:hjk72@cornell.edu"
-          ></a>
-          &nbsp;| & my grandparents who braved them 🇺🇸
-        </footer>
-      </div>
     </div>
   );
 }
