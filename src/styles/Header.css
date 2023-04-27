@@ -1,0 +1,34 @@
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+}
+
+.header {
+  background-color: eaeaea;
+  text-align: center;
+  font-size: 2.5vmin;
+  padding: 1vmin;
+}
+
+@media (max-width: 430px) or (max-height: 932px) {
+  .header {
+    font-size: 2.5vmax;
+  }
+}
+
+.headerLogosRight,
+.headerEmptyLeft {
+  background-color: #eaeaea;
+  border-bottom-right-radius: 2vmin;
+  border-bottom-left-radius: 2vmin;
+  font-size: 2rem;
+}
+
+.headerEmptyLeft {
+  background-color: transparent;
+}
+
+.transparent {
+  color: transparent;
+}

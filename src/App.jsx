@@ -7,6 +7,7 @@ import { Portfolio } from "./components/Portfolio";
 import { Resume } from "./components/Resume";
 import { Contact } from "./components/Contact";
 import { Waves } from "./components/Waves";
+import { Header } from "./components/Header";
 import { Footer } from "./components/Footer";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
   return (
     <div>
       <Navbar />
+      <Header />
       <Routes>
         <Route path="/" element={<About />} />
         <Route path="/Portfolio" element={<Portfolio />} />

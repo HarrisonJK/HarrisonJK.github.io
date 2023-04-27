@@ -3,6 +3,7 @@
 @import "./styles/About.css";
 @import "./styles/Waves.css";
 @import "./styles/Footer.css";
+@import "./styles/Header.css";
 
 body {
   position: relative;
