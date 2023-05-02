@@ -10,7 +10,23 @@ export function Header() {
         &nbsp;
         <a className="fa fa-envelope transparent "></a>
       </div>
-      <div className="header">Harrison Katapodis' Personal Website</div>
+      {/* <div className="header"> */}
+      <div className="jack">
+        <svg className="svg">
+          <symbol id="s-text">
+            <text textAnchor="middle" x="50%" y="80%">
+              Harrison Katapodis
+            </text>
+          </symbol>
+          <g className="g-ants">
+            <use xlinkHref="#s-text" className="text-copy"></use>
+            <use xlinkHref="#s-text" className="text-copy"></use>
+            <use xlinkHref="#s-text" className="text-copy"></use>
+            <use xlinkHref="#s-text" className="text-copy"></use>
+            <use xlinkHref="#s-text" className="text-copy"></use>
+          </g>
+        </svg>
+      </div>
       <div className="headerLogosRight header">
         <a
           className="fa fa-linkedin noStyle"

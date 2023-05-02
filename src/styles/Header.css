@@ -32,3 +32,55 @@
 .transparent {
   color: transparent;
 }
+
+.svg {
+  position: relative;
+  font: 50px "Montserrat";
+  height: 60px;
+  width: 500px;
+}
+
+.text-copy {
+  fill: black;
+  stroke: white;
+  stroke-dasharray: 6% 100%;
+  stroke-width: 2.5px;
+  stroke-dashoffset: 10%;
+  animation: stroke-offset 2s infinite linear;
+}
+
+.text-copy:nth-child(1) {
+  stroke: transparent;
+  animation-delay: -1;
+}
+
+.text-copy:nth-child(2) {
+  stroke: transparent;
+  animation-delay: 100s;
+}
+
+.text-copy:nth-child(3) {
+  stroke: transparent;
+  animation-delay: 100s;
+}
+
+.text-copy:nth-child(4) {
+  stroke: white;
+}
+
+.text-copy:nth-child(5) {
+  stroke: transparent;
+  animation-delay: -5s;
+}
+
+@keyframes stroke-offset {
+  100% {
+    stroke-dashoffset: -35%;
+  }
+}
+
+@media (max-width: 649px) {
+  div.jack {
+    display: none;
+  }
+}
