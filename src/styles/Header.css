@@ -33,42 +33,43 @@
   color: transparent;
 }
 
-.svg {
-  position: relative;
+svg.svg {
+  display: block;
   font: 50px "Montserrat";
   height: 60px;
   width: 500px;
+  margin: 0 auto;
 }
 
-.text-copy {
+.HK {
   fill: black;
   stroke: white;
-  stroke-dasharray: 6% 100%;
+  stroke-dasharray: 6% 30%;
   stroke-width: 2.5px;
-  stroke-dashoffset: 10%;
-  animation: stroke-offset 2s infinite linear;
+  animation: stroke-offset 5.5s infinite linear;
 }
 
-.text-copy:nth-child(1) {
+.HK:nth-child(1) {
   stroke: transparent;
   animation-delay: -1;
 }
 
-.text-copy:nth-child(2) {
+.HK:nth-child(2) {
   stroke: transparent;
-  animation-delay: 100s;
+  animation-delay: -2s;
 }
 
-.text-copy:nth-child(3) {
+.HK:nth-child(3) {
   stroke: transparent;
-  animation-delay: 100s;
+  animation-delay: -3s;
 }
 
-.text-copy:nth-child(4) {
+.HK:nth-child(4) {
   stroke: white;
+  animation-delay: -4s;
 }
 
-.text-copy:nth-child(5) {
+.HK:nth-child(5) {
   stroke: transparent;
   animation-delay: -5s;
 }
@@ -80,7 +81,7 @@
 }
 
 @media (max-width: 649px) {
-  div.jack {
+  div.HKHeader {
     display: none;
   }
 }

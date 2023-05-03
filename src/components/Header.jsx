@@ -11,7 +11,7 @@ export function Header() {
         <a className="fa fa-envelope transparent "></a>
       </div>
       {/* <div className="header"> */}
-      <div className="jack">
+      <div className="HKHeader">
         <svg className="svg">
           <symbol id="s-text">
             <text textAnchor="middle" x="50%" y="80%">
@@ -19,11 +19,11 @@ export function Header() {
             </text>
           </symbol>
           <g className="g-ants">
-            <use xlinkHref="#s-text" className="text-copy"></use>
-            <use xlinkHref="#s-text" className="text-copy"></use>
-            <use xlinkHref="#s-text" className="text-copy"></use>
-            <use xlinkHref="#s-text" className="text-copy"></use>
-            <use xlinkHref="#s-text" className="text-copy"></use>
+            <use xlinkHref="#s-text" className="HK"></use>
+            <use xlinkHref="#s-text" className="HK"></use>
+            <use xlinkHref="#s-text" className="HK"></use>
+            <use xlinkHref="#s-text" className="HK"></use>
+            <use xlinkHref="#s-text" className="HK"></use>
           </g>
         </svg>
       </div>
