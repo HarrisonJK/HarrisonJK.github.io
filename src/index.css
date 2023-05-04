@@ -4,6 +4,7 @@
 @import "./styles/Waves.css";
 @import "./styles/Footer.css";
 @import "./styles/Header.css";
+@import "./styles/Sun.css";
 
 body {
   position: relative;
