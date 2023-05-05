@@ -2,11 +2,12 @@
   position: fixed;
   width: 100%;
   height: 100%;
-  margin-top: 50px;
+  margin-top: 100px;
   z-index: -1;
 }
 
 .sunChild {
+  margin: auto;
   width: 350px;
   height: 350px;
 }
@@ -17,8 +18,12 @@
 
 .cls-2 {
   fill: #fedc4a;
-  animation: rotate 10s linear infinite;
+  animation: rotate 15s linear infinite, sunRays 15s alternate infinite;
   transform-origin: center;
+  /* animation-name: animate;
+  animation-duration: 0.8s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate; */
 }
 
 @keyframes rotate {
@@ -27,5 +32,17 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@keyframes sunRays {
+  0% {
+    filter: drop-shadow(0px 0px 1px #fff) drop-shadow(0px 0px 3px #fff)
+      drop-shadow(0px 0px 10px #ffe67d) drop-shadow(0px 0px 30px #fedc4a);
+  }
+
+  100% {
+    filter: drop-shadow(0px 0px 3px #fff) drop-shadow(0px 0px 6px #fff)
+      drop-shadow(0px 0px 15px #ffe67d) drop-shadow(0px 0px 40px #fedc4a);
   }
 }
