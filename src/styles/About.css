@@ -2,14 +2,3 @@
   display: flex;
   justify-content: center;
 }
-
-.noStyle {
-  color: black;
-  text-decoration: none;
-}
-
-.noStyle:hover {
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-  transition: 0.75s;
-}

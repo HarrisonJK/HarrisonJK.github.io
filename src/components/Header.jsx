@@ -1,3 +1,5 @@
+import { Icon } from "@iconify/react";
+
 export function Header() {
   return (
     <div className="headerContainer">
@@ -28,6 +30,13 @@ export function Header() {
         </svg>
       </div>
       <div className="headerLogosRight header">
+        {/* <Icon className="headerIcon" icon="ri:linkedin-fill" />
+        <Icon className="headerIcon" icon="mdi:github" />
+        <Icon className="headerIcon" icon="mdi:instagram" />
+        <Icon
+          className="headerIcon"
+          icon="material-symbols:mail-outline-sharp"
+        /> */}
         <a
           className="fa fa-linkedin noStyle"
           href="https://www.linkedin.com/in/harrisonhjk/"
