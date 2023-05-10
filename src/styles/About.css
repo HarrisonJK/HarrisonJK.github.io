@@ -1,4 +1,40 @@
+.aboutMe {
+  width: calc(100% - 10rem);
+  margin: 50px auto;
+  padding: 50px;
+  background: #e8e8e8;
+}
+
+.rainbowContainer {
+  box-shadow: #0271bc 0px 0px 0px 3px, #1fc11b 0px 0px 0px 6px,
+    #ffd913 0px 0px 0px 9px, #ff9c55 0px 0px 0px 12px, #ff5555 0px 0px 0px 15px;
+  border-radius: 1rem;
+  opacity: 0.9;
+  font-size: 1.5rem;
+}
+
 .center {
-  display: flex;
-  justify-content: center;
+  text-align: center;
+}
+.montserrat {
+  font-family: "Montserrat", Helvetica, sans-serif, Arial;
+  line-height: 1.5;
+}
+
+.space {
+  line-height: 2;
+}
+
+.noMargin {
+  margin: 15px;
+}
+
+.wikiHover:hover {
+  cursor: pointer;
+  transition: all 0.5s ease;
+  transform: scale(1.5);
+}
+
+.wikiHover:hover .test {
+  fill: #ff0000;
 }

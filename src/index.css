@@ -10,5 +10,8 @@ body {
   position: relative;
   font-family: "Lato";
   margin: 0;
-  background-color: rgb(126, 126, 159);
+  background-color: #3789bb;
+  /* background-color: #3789bb; */
+  /* background-color: rgb(126, 126, 159); */
+  /* background-color: #86c7f1; */
 }

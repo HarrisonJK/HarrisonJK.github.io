@@ -1,5 +1,3 @@
-import { Icon } from "@iconify/react";
-
 export function Header() {
   return (
     <div className="headerContainer">
