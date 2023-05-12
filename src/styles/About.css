@@ -14,7 +14,9 @@
 }
 
 .center {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .montserrat {
   font-family: "Montserrat", Helvetica, sans-serif, Arial;
@@ -29,12 +31,22 @@
   margin: 15px;
 }
 
-.wikiHover:hover {
-  cursor: pointer;
+.wikiHover {
   transition: all 0.5s ease;
-  transform: scale(1.5);
 }
 
-.wikiHover:hover .test {
+.wikiHover:hover {
+  cursor: pointer;
+  transform: scale(2);
+}
+.wikiHover:hover .colorChange {
   fill: #ff0000;
+}
+
+.colorChange {
+  transition: all 0.5s ease;
+}
+
+.botPadding {
+  padding-bottom: 15px;
 }
