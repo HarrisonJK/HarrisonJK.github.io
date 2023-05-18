@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import before from "../assets/before.svg";
+import after from "../assets/after.svg";
 
 export function About() {
   function WikipediaButton() {
@@ -498,6 +500,7 @@ export function About() {
       "https://en.wikipedia.org/wiki/Delimiter",
       "https://en.wikipedia.org/wiki/I_Love_to_Singa",
       "https://en.wikipedia.org/wiki/The_Singing_Kid",
+      "https://en.wikipedia.org/wiki/Potoo",
     ];
 
     function handleClick() {
@@ -532,35 +535,45 @@ export function About() {
   }
 
   return (
-    <section className="aboutMe rainbowContainer">
-      <h1 className="center montserrat">Hello!</h1>
-      <p className="montserrat">
-        My name is Harrison Katapodis and I'm a software engineer! <br></br>
+    <div>
+      <section className="easy-grid">
+        <img className="example-block" src={before} />
+        <img className="example-block" src={after} />
+      </section>
+      <section className="aboutMe rainbowContainer montserrat" id="marginCut">
+        <h1 className="center montserrat">Hello!</h1>
+        My name is Harrison Katapodis and I'm a software engineer! <br></br> I
+        started out in Finance, but during the pandemic realized I wanted to
+        develop a skillset that would allow me to be more creative. <br></br>I
+        created this website to showcase my experiences and give you insight
+        into who I am!
+        <br></br>
         Check out some of of my favorite projects{" "}
-        <Link to="/portfolio">here!</Link> <br></br> I started out in Finance,
-        but during the pandemic realized I wanted a more tangible skill that
-        would allow me to be more creative. <br></br>I created this website to
-        showcase my experiences and give you insight into who I am!
+        <Link to="/portfolio">here!</Link>
+      </section>
+      <section className="aboutMe rainbowContainer montserrat" id="marginCut">
         <h1 className="noMargin">
-          The <mark>highlights</mark>
+          <mark className="highlight">Highlights</mark>
         </h1>
         <li className="space">
           Graduate of Cornell University and Fullstack Academy
         </li>
-        <li>PERN Stack Educated and learning Python</li>
+        <li>PERN Stack-educated and learning Python</li>
         <li>
           Passionate about helping others and making the world a better place
         </li>
         <li>
-          Lifelong learner always trying to be better than i was the day before
+          Lifelong learner whose always trying to be better than I was the day
+          before
         </li>
-      </p>
-      <div className="montserrat center botPadding">
-        Wikipedia button (Some of my favorites!)
-      </div>
-      <div>
-        <WikipediaButton />
-      </div>
-    </section>
+
+        <div className="montserrat center botPadding">
+          Wikipedia button (Some of my favorites!)
+        </div>
+        <div>
+          <WikipediaButton />
+        </div>
+      </section>
+    </div>
   );
 }

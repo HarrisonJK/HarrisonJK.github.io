@@ -17,7 +17,7 @@
 }
 
 .cls-2 {
-  fill: #fedc4a;
+  fill: #ffd364;
   animation: rotate 300s linear infinite, sunRays 5s alternate infinite;
   transform-origin: center;
   /* animation-name: animate;
@@ -38,11 +38,11 @@
 @keyframes sunRays {
   0% {
     filter: drop-shadow(0px 0px 1px #fff) drop-shadow(0px 0px 1.5px #fff)
-      drop-shadow(0px 0px 5px #ffe67d) drop-shadow(0px 0px 10px #fedc4a);
+      drop-shadow(0px 0px 5px #ffe67d) drop-shadow(0px 0px 10px #ffd364);
   }
 
   100% {
     filter: drop-shadow(0px 0px 2px #fff) drop-shadow(0px 0px 3px #fff)
-      drop-shadow(0px 0px 7.5px #ffe67d) drop-shadow(0px 0px 15px #fedc4a);
+      drop-shadow(0px 0px 7.5px #ffe67d) drop-shadow(0px 0px 15px #ffd364);
   }
 }

@@ -10,7 +10,6 @@ export function Header() {
         &nbsp;
         <a className="fa fa-envelope transparent "></a>
       </div>
-      {/* <div className="header"> */}
       <div className="HKHeader">
         <svg className="svg">
           <symbol id="s-text">
