@@ -26,6 +26,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 .montserrat {
   font-family: "Montserrat", Helvetica, sans-serif, Arial;
@@ -69,4 +70,25 @@
   grid-gap: var(--g, 2rem);
   grid-auto-columns: 1fr;
   grid-auto-flow: column;
+}
+
+.example-block {
+  display: grid;
+  grid-gap: var(--g, 2rem);
+  grid-auto-columns: 1fr;
+  grid-auto-flow: column;
+  align-items: center;
+  justify-content: center;
+  background: #3789bb;
+  border-radius: 15px;
+}
+
+#jack {
+  width: 100vw;
+  height: 100vh;
+  border-radius: 15px;
+}
+
+.italic {
+  font-style: italic;
 }

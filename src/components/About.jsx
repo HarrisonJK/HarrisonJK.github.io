@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import before from "../assets/before.svg";
 import after from "../assets/after.svg";
+import welcome from "../assets/welcome.svg";
 
 export function About() {
   function WikipediaButton() {
@@ -536,19 +537,39 @@ export function About() {
 
   return (
     <div>
+      <section>
+        <img className="example-block" id="jack " src={welcome} />
+      </section>
+      <section className="center aboutMe rainbowContainer montserrat">
+        Harrison Katapodis <br className="center"></br>Software engineer{" "}
+        <br className="center"></br>This is my origin story:
+        <br className="center"></br>*cue dramatic music*
+      </section>
       <section className="easy-grid">
         <img className="example-block" src={before} />
         <img className="example-block" src={after} />
       </section>
-      <section className="aboutMe rainbowContainer montserrat" id="marginCut">
-        <h1 className="center montserrat">Hello!</h1>
-        My name is Harrison Katapodis and I'm a software engineer! <br></br> I
-        started out in Finance, but during the pandemic realized I wanted to
-        develop a skillset that would allow me to be more creative. <br></br>I
-        created this website to showcase my experiences and give you insight
-        into who I am!
+      <section className="aboutMe rainbowContainer montserrat">
+        <span className="center italic">
+          *The End* <br></br>
+        </span>
+        Now yes this comic could have been a little longer, but unfortunately I
+        am not an animator as much as my expertly drawn stick figures may have
+        lead you to believe
         <br></br>
-        Check out some of of my favorite projects{" "}
+        <br></br> Just in the process of creating this website I was able to
+        express my love of problem solving, technology, design, comedy, being
+        greek, comic books, and so much more that it became a microcosm of why I
+        fell in love with software development in the first place.
+        <br></br> The ability to be creative while solving real problems
+        anywhere in the world with just a computer and the internet.
+        <br></br>
+        <br></br> It's a very liberating feeling unique to this profession and
+        it's my hope that I can use this skillset to help make the world a
+        better place
+        <br></br>
+        <br></br>
+        Check out some of of my favorite projects I've created so far{" "}
         <Link to="/portfolio">here!</Link>
       </section>
       <section className="aboutMe rainbowContainer montserrat" id="marginCut">
