@@ -553,20 +553,27 @@ export function About() {
         <span className="center italic">
           *The End* <br></br>
         </span>
-        Now yes this comic could have been a little longer, but unfortunately I
-        am not an animator as much as my expertly drawn stick figures may have
-        lead you to believe
+        Now yes this comic strip could have been a little longer, but
+        unfortunately I am not an animator as much as my expertly drawn stick
+        figures may have lead you to believe otherwise.
         <br></br>
-        <br></br> Just in the process of creating this website I was able to
-        express my love of problem solving, technology, design, comedy, being
-        greek, comic books, and so much more that it became a microcosm of why I
-        fell in love with software development in the first place.
-        <br></br> The ability to be creative while solving real problems
-        anywhere in the world with just a computer and the internet.
-        <br></br>
+        <br></br> I am a software engineer and in the process of creating this
+        website I was able to express my love of problem solving, technology,
+        design, comedy, being greek, comic books, and so much more that it
+        became a microcosm of why I fell in love with software development in
+        the first place:
+        <span className="center italic">
+          <br></br> The ability to be creative individually and as a group to
+          solve real problems anywhere in the world with just a computer, the
+          internet, and the boldness to.<br></br>
+        </span>
         <br></br> It's a very liberating feeling unique to this profession and
         it's my hope that I can use this skillset to help make the world a
-        better place
+        better place.
+        <br></br>
+        <br></br>
+        Hope to have given you some insight into who I am and I would love to
+        talk further if you have any follow-up questions!
         <br></br>
         <br></br>
         Check out some of of my favorite projects I've created so far{" "}
