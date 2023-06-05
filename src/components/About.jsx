@@ -6,6 +6,7 @@ import welcome from "../assets/welcome.svg";
 export function About() {
   function WikipediaButton() {
     const links = [
+      "https://en.wikipedia.org/wiki/Rigas_Feraios",
       "https://en.wikipedia.org/wiki/Graphical_user_interface",
       "https://en.wikipedia.org/wiki/Extreme_programming",
       "https://en.wikipedia.org/wiki/Test-driven_development",
@@ -565,10 +566,10 @@ export function About() {
         <span className="center italic">
           <br></br> The ability to be creative individually and as a group to
           solve real problems anywhere in the world with just a computer, the
-          internet, and the boldness to.<br></br>
+          internet, and the audacity to try .<br></br>
         </span>
         <br></br> It's a very liberating feeling unique to this profession and
-        it's my hope that I can use this skillset to help make the world a
+        it's my hope that I can use this skill set to help make the world a
         better place.
         <br></br>
         <br></br>
