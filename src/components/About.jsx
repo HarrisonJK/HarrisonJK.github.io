@@ -547,8 +547,12 @@ export function About() {
         <br className="center"></br>*cue dramatic music*
       </section>
       <section className="easy-grid">
-        <img className="example-block" src={before} />
-        <img className="example-block" src={after} />
+        <div className="example-block">
+          <img src={before} />
+        </div>
+        <div className="example-block">
+          <img src={after} />
+        </div>
       </section>
       <section className="aboutMe rainbowContainer montserrat">
         <span className="center italic">
@@ -566,7 +570,7 @@ export function About() {
         <span className="center italic">
           <br></br> The ability to be creative individually and as a group to
           solve real problems anywhere in the world with just a computer, the
-          internet, and the audacity to try .<br></br>
+          internet, and the audacity to try to be the solution.<br></br>
         </span>
         <br></br> It's a very liberating feeling unique to this profession and
         it's my hope that I can use this skill set to help make the world a

@@ -68,17 +68,12 @@
 .easy-grid {
   display: grid;
   grid-gap: var(--g, 2rem);
-  grid-auto-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-auto-flow: column;
 }
 
 .example-block {
-  display: grid;
-  grid-gap: var(--g, 2rem);
-  grid-auto-columns: 1fr;
-  grid-auto-flow: column;
-  align-items: center;
-  justify-content: center;
+  width: 100%;
   background: #3789bb;
   border-radius: 15px;
 }

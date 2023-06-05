@@ -22,7 +22,7 @@ export function Header() {
             <use xlinkHref="#s-text" className="HK"></use>
             <use xlinkHref="#s-text" className="HK"></use>
             <use xlinkHref="#s-text" className="HK"></use>
-            <use xlinkHref="#s-text" className="HK"></use>
+            {/* <use xlinkHref="#s-text" className="HK"></use> */}
           </g>
         </svg>
       </div>
