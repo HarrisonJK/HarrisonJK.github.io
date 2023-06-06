@@ -415,7 +415,6 @@ export function About() {
       "https://en.wikipedia.org/wiki/Road_of_Life",
       "https://en.wikipedia.org/wiki/Siege_of_Leningrad",
       "https://en.wikipedia.org/wiki/A_La_Vieille_Russie",
-      "https://en.wikipedia.org/wiki/Isekai",
       "https://en.wikipedia.org/wiki/The_World_as_Will_and_Representation",
       "https://en.wikipedia.org/wiki/The_Birth_of_Tragedy",
       "https://en.wikipedia.org/wiki/Stack_trace",
