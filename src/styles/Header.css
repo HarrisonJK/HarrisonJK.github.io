@@ -45,7 +45,7 @@ svg.svg {
   fill: black;
   stroke: white;
   stroke-dasharray: 6% 30%;
-  stroke-width: 2px;
+  stroke-width: 1.5px;
   animation: stroke-offset 5.5s infinite linear;
 }
 
