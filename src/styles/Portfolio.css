@@ -1,4 +1,149 @@
-.navLogo {
-  width: 7rem;
-  /* width: 10vw; */
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=Inter:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Lato&familyMontserrat=&family=Roboto&family=Roboto+Mono&display=swap");
+
+:root {
+  /* Colors */
+  --gray-0: #f9f9f9;
+  --gray-05: #f6f6f6;
+  --gray-3: #ddd;
+  --gray-6: #666;
+
+  /* Font */
+  --font-family-base: "Inter", -apple-system, "Montserrat", BlinkMacSystemFont,
+    "Helvetica Neue", Arial, sans-serif;
+  --font-color-muted: var(--gray-6);
+
+  /* Borders */
+  --border-color: var(--gray-3);
+  --border-color-hover: var(--gray-6);
+  --border-radius: 6px;
+
+  /* Elements */
+  --background-color: #eee;
+  --card-background-color: var(--gray-0);
+  --button-background-color: var(--gray-05);
+}
+
+/* Containers */
+
+.segment {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.container {
+  max-width: var(--content-width);
+  padding: 0 2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Buttons */
+
+a.button {
+  background: var(--button-background-color);
+  display: inline-flex;
+  align-items: center;
+  line-height: 1;
+  border-radius: var(--border-radius);
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: 500;
+  color: var(--font-color-base);
+  border: 1px solid var(--border-color);
+  gap: 0.25rem;
+  letter-spacing: 0;
+  white-space: nowrap;
+  font-size: 0.9rem;
+  padding: 0.5rem 0.6rem;
+}
+
+a.button:hover {
+  color: var(--font-color-bright);
+  border-color: var(--border-color-hover);
+}
+
+.card {
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+  background: var(--card-background-color);
+  padding: 1rem;
+  position: relative;
+}
+
+@media screen and (min-width: 700px) {
+  .card.anchored.large {
+    padding-bottom: 5rem;
+  }
+}
+
+.card a.card-header {
+  display: block;
+  font-size: 1rem;
+  line-height: 1.3;
+  font-family: var(--font-family-base);
+  font-weight: 500;
+  color: var(--font-color-heading);
+  margin: 0.1rem 0 0.5rem;
+  padding: 0;
+  border: 0;
+  text-decoration: none;
+}
+
+.card a.card-header:hover,
+.card h2:hover {
+  text-decoration-line: underline;
+  text-decoration-thickness: 2px;
+  color: var(--font-color-bright);
+}
+
+.card p {
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: var(--font-color-muted);
+  font-family: var(--font-family-base);
+}
+
+@media screen and (min-width: 700px) {
+  .card {
+    padding: 1.5rem;
+  }
+
+  .card a.card-header,
+  .card h2 {
+    font-weight: 500;
+    font-size: 1.1rem;
+  }
+}
+
+/* Preview */
+.project-preview {
+  display: grid;
+  gap: 1rem;
+}
+
+@media screen and (min-width: 700px) {
+  .project-preview {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 1060px) {
+  .project-preview {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+@media screen and (min-width: 700px) {
+  .links.anchored {
+    position: absolute;
+    bottom: 1.5rem;
+    left: 1.5rem;
+  }
 }

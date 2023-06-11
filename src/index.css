@@ -5,6 +5,11 @@
 @import "./styles/Footer.css";
 @import "./styles/Header.css";
 @import "./styles/Sun.css";
+@import "./styles/Portfolio.css";
+
+a {
+  text-decoration: none;
+}
 
 body {
   position: relative;
