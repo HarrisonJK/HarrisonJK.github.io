@@ -4,9 +4,10 @@
   font-size: 2vmin;
   padding: 1vmin;
 }
-@media (max-width: 430px) {
+
+@media (min-width: 1150px) {
   .footer {
-    font-size: 1.75vmin;
+    font-size: 2.5vmin;
   }
 }
 
