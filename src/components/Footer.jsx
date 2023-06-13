@@ -18,7 +18,8 @@ export function Footer() {
       ></a>
       &nbsp;
       <a className="fa fa-envelope noStyle" href="mailto:hjk72@cornell.edu"></a>
-      &nbsp;| & my grandparents who braved them 🇺🇸
+      &nbsp;
+      <span className="removeMe">| & my grandparents who braved them 🇺🇸</span>
     </footer>
   );
 }

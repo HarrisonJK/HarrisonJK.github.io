@@ -541,11 +541,13 @@ export function About() {
       <section>
         <img className="example-block" id="jack " src={welcome} />
       </section>
-      <section className="center aboutMe rainbowContainer montserrat">
-        Harrison Katapodis <br className="center"></br>Software engineer{" "}
-        <br className="center"></br>This is my origin story:
-        <br className="center"></br>*cue dramatic music*
-      </section>
+      <div className="testcontainer">
+        <section className="center aboutMe rainbowContainer montserrat">
+          Harrison Katapodis <br className="center"></br>Software engineer{" "}
+          <br className="center"></br>This is my origin story:
+          <br className="center"></br>*cue dramatic music*
+        </section>
+      </div>
       <section className="easy-grid">
         <div className="example-block">
           <img src={before} />
@@ -554,59 +556,63 @@ export function About() {
           <img src={after} />
         </div>
       </section>
-      <section className="aboutMe rainbowContainer montserrat">
-        <span className="center italic">
-          *The End* <br></br>
-        </span>
-        Now yes this comic strip could have been a little longer, but
-        unfortunately I am not an animator as much as my expertly drawn stick
-        figures may have lead you to believe otherwise.
-        <br></br>
-        <br></br> I am a software engineer and in the process of creating this
-        website I was able to express my love of problem solving, technology,
-        design, comedy, being greek, comic books, and so much more that it
-        became a microcosm of why I fell in love with software development in
-        the first place:
-        <span className="center italic">
-          <br></br> The ability to be creative individually and as a group to
-          solve real problems anywhere in the world with just a computer, the
-          internet, and the audacity to try to be the solution.<br></br>
-        </span>
-        <br></br> It's a very liberating feeling unique to this profession and
-        it's my hope that I can use this skill set to help make the world a
-        better place.
-        <br></br>
-        <br></br>
-        Hope to have given you some insight into who I am and I would love to
-        talk further if you have any follow-up questions!
-        <br></br>
-        <br></br>
-        Check out some of of my favorite projects I've created so far{" "}
-        <Link to="/portfolio">here!</Link>
-      </section>
-      <section className="aboutMe rainbowContainer montserrat" id="marginCut">
-        <h1 className="noMargin">
-          <mark className="highlight">Highlights</mark>
-        </h1>
-        <li className="space">
-          Graduate of Cornell University and Fullstack Academy
-        </li>
-        <li>PERN Stack-educated and learning Python</li>
-        <li>
-          Passionate about helping others and making the world a better place
-        </li>
-        <li>
-          Lifelong learner whose always trying to be better than I was the day
-          before
-        </li>
+      <div className="aboutMeContainer">
+        <section className="aboutMe rainbowContainer montserrat">
+          <span className="center italic">
+            *The End* <br></br>
+          </span>
+          Now yes this comic strip could have been a little longer, but
+          unfortunately I am not an animator as much as my expertly drawn stick
+          figures may have lead you to believe otherwise.
+          <br></br>
+          <br></br> I am a software engineer and in the process of creating this
+          website I was able to express my love of problem solving, technology,
+          design, comedy, being greek, comic books, and so much more that it
+          became a microcosm of why I fell in love with software development in
+          the first place:
+          <span className="center italic">
+            <br></br> The ability to be creative individually and as a group to
+            solve real problems anywhere in the world with just a computer, the
+            internet, and the audacity to try to be the solution.<br></br>
+          </span>
+          <br></br> It's a very liberating feeling unique to this profession and
+          it's my hope that I can use this skill set to help make the world a
+          better place.
+          <br></br>
+          <br></br>
+          Hope to have given you some insight into who I am and I would love to
+          talk further if you have any follow-up questions!
+          <br></br>
+          <br></br>
+          Check out some of of my favorite projects I've created so far{" "}
+          <Link to="/portfolio">here!</Link>
+        </section>
+      </div>
+      <div className="aboutMeContainer ">
+        <section className="aboutMe rainbowContainer montserrat" id="marginCut">
+          <h1 className="noMargin">
+            <mark className="highlight">Highlights</mark>
+          </h1>
+          <li className="space">
+            Graduate of Cornell University and Fullstack Academy
+          </li>
+          <li>PERN Stack-educated and learning Python</li>
+          <li>
+            Passionate about helping others and making the world a better place
+          </li>
+          <li>
+            Lifelong learner whose always trying to be better than I was the day
+            before
+          </li>
 
-        <div className="montserrat center botPadding">
-          Wikipedia button (Some of my favorites!)
-        </div>
-        <div>
-          <WikipediaButton />
-        </div>
-      </section>
+          <div className="montserrat center botPadding">
+            Wikipedia button (Some of my favorites!)
+          </div>
+          <div>
+            <WikipediaButton />
+          </div>
+        </section>
+      </div>
     </div>
   );
 }

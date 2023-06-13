@@ -5,8 +5,16 @@
   background: #e8e8e8;
 }
 
-#marginCut {
-  padding-top: 0px;
+@media (max-width: 1140px) {
+  .aboutMe {
+    margin: 25px;
+  }
+}
+
+.aboutMeContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .rainbowContainer {
