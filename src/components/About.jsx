@@ -6,8 +6,10 @@ import welcome from "../assets/welcome.svg";
 export function About() {
   function WikipediaButton() {
     const links = [
+      "https://en.wikipedia.org/wiki/Monty_Hall_problem",
       "https://en.wikipedia.org/wiki/Rigas_Feraios",
       "https://en.wikipedia.org/wiki/Joachim_Patinir",
+      "https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect",
       "https://en.wikipedia.org/wiki/Graphical_user_interface",
       "https://en.wikipedia.org/wiki/Extreme_programming",
       "https://en.wikipedia.org/wiki/Test-driven_development",
@@ -18,6 +20,7 @@ export function About() {
       "https://en.wikipedia.org/wiki/Polish_notation",
       "https://en.wikipedia.org/wiki/Transistor",
       "https://en.wikipedia.org/wiki/Bit_rate",
+      "https://en.wikipedia.org/wiki/Infinite_monkey_theorem",
       "https://en.wikipedia.org/wiki/Modularity",
       "https://en.wikipedia.org/wiki/Functional_programming",
       "https://en.wikipedia.org/wiki/Minification_(programming)",
