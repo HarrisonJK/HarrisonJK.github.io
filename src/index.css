@@ -6,6 +6,7 @@
 @import "./styles/Header.css";
 @import "./styles/Sun.css";
 @import "./styles/Portfolio.css";
+@import "./styles/Contact.css";
 
 a {
   text-decoration: none;

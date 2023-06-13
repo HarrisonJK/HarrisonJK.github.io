@@ -8,9 +8,15 @@
 
 .sunChild {
   margin: auto;
-  width: 350px;
+  width: 400px;
   height: 350px;
 }
+
+/* .noPad {
+  padding: 0;
+  margin: 0;
+  padding-bottom: 10px;
+} */
 
 .cls-1 {
   fill: #ffe67d;
