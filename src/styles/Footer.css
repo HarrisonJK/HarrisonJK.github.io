@@ -1,17 +1,20 @@
 .footer {
   background-color: transparent;
   text-align: center;
-  font-size: 2.5vmin;
+  font-size: 2vmin;
   padding: 1vmin;
 }
-@media (max-width: 430px) or (max-height: 932px) {
+@media (max-width: 430px) {
   .footer {
-    font-size: 2.5vmax;
+    font-size: 1.75vmin;
   }
 }
 
 @media (max-width: 941px) {
   .removeMe {
     display: none;
+  }
+  .footer {
+    font-size: 3vmin;
   }
 }
