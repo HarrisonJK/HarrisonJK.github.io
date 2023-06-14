@@ -15,6 +15,11 @@ form {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+#email,
+#message {
+  width: 380px;
+}
+
 label {
   display: block;
   margin-bottom: 10px;
@@ -23,7 +28,6 @@ label {
 input,
 textarea {
   width: 100%;
-  max-width: 300px;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;

@@ -20,9 +20,13 @@ export function Contact() {
           field="message"
           errors={state.errors}
         />
-        <button className="center " type="submit" disabled={state.submitting}>
-          Submit
-        </button>
+        <div>
+          <div className="center">
+            <button type="submit" disabled={state.submitting}>
+              Submit
+            </button>
+          </div>
+        </div>
       </form>
       <div className="under">
         <a
