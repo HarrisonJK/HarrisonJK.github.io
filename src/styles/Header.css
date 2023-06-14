@@ -84,6 +84,9 @@ svg.svg {
   div.HKHeader {
     display: none;
   }
+  .sunContainer {
+    display: none;
+  }
 }
 
 .headerIcon {

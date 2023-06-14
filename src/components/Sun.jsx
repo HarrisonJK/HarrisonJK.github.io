@@ -3,7 +3,7 @@ export function Sun() {
     <div className="sunContainer">
       <div className="sunChild">
         <svg
-          className="sun"
+          className=""
           id="Layer_2"
           data-name="Layer 2"
           xmlns="http://www.w3.org/2000/svg"

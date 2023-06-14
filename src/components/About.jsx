@@ -544,7 +544,7 @@ export function About() {
       <section>
         <img className="example-block" id="jack " src={welcome} />
       </section>
-      <div className="testcontainer">
+      <div>
         <section className="center aboutMe rainbowContainer montserrat">
           Harrison Katapodis <br className="center"></br>Software engineer{" "}
           <br className="center"></br>This is my origin story:
