@@ -21,17 +21,17 @@ export const projectsList = [
   {
     name: "Project 2",
     slug: "HarrisonJK.github.io ",
-    tagline: "The source code of this website.",
+    tagline: "",
     url: "https://harrisonjk.github.io",
     writeup: "/test",
     highlight: true,
   },
   {
-    name: "HarrisonJK.com",
-    slug: "HarrisonJK.github.io ",
-    tagline: "The source code of this website.",
-    url: "https://harrisonjk.github.io",
-    writeup: "/test",
+    name: "Scribble Me This",
+    slug: "/2022-Scribble-Me-This",
+    tagline:
+      "A Pictionary-style game where AI rates your drawings to award the winner!",
+    url: "https://www.youtube.com/watch?v=eNn01r9uogw",
     highlight: true,
   },
   {

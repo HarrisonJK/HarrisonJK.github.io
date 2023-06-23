@@ -6,6 +6,9 @@ import welcome from "../assets/welcome.svg";
 export function About() {
   function WikipediaButton() {
     const links = [
+      "https://en.wikipedia.org/wiki/Angelica_and_Medoro",
+      "https://en.wikipedia.org/wiki/Orlando_(opera)",
+      "https://en.wikipedia.org/wiki/USS_Samuel_B._Roberts_(DE-413)",
       "https://en.wikipedia.org/wiki/Monty_Hall_problem",
       "https://en.wikipedia.org/wiki/Rigas_Feraios",
       "https://en.wikipedia.org/wiki/Joachim_Patinir",
