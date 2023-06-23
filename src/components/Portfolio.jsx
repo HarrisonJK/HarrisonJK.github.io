@@ -7,7 +7,7 @@ export const projectsList = [
     slug: "HarrisonJK.github.io ",
     tagline: "The source code of this website.",
     url: "https://harrisonjk.github.io",
-    writeup: "/test",
+    // writeup: "/test",
     highlight: true,
   },
   {
@@ -15,7 +15,7 @@ export const projectsList = [
     slug: "HarrisonJK.github.io ",
     tagline: "The source code of this website.",
     url: "https://harrisonjk.github.io",
-    writeup: "/test",
+    // writeup: "/test",
     highlight: true,
   },
   {
@@ -23,7 +23,7 @@ export const projectsList = [
     slug: "HarrisonJK.github.io ",
     tagline: "",
     url: "https://harrisonjk.github.io",
-    writeup: "/test",
+    // writeup: "/test",
     highlight: true,
   },
   {
@@ -32,46 +32,6 @@ export const projectsList = [
     tagline:
       "A Pictionary-style game where AI rates your drawings to award the winner!",
     url: "https://www.youtube.com/watch?v=eNn01r9uogw",
-    highlight: true,
-  },
-  {
-    name: "HarrisonJK.com",
-    slug: "HarrisonJK.github.io ",
-    tagline: "The source code of this website.",
-    url: "https://harrisonjk.github.io",
-    writeup: "/test",
-    highlight: true,
-  },
-  {
-    name: "HarrisonJK.com",
-    slug: "HarrisonJK.github.io ",
-    tagline: "The source code of this website.",
-    url: "https://harrisonjk.github.io",
-    writeup: "/test",
-    highlight: true,
-  },
-  {
-    name: "HarrisonJK.com",
-    slug: "HarrisonJK.github.io ",
-    tagline: "The source code of this website.",
-    url: "https://harrisonjk.github.io",
-    writeup: "/test",
-    highlight: true,
-  },
-  {
-    name: "HarrisonJK.com",
-    slug: "HarrisonJK.github.io ",
-    tagline: "The source code of this website.",
-    url: "https://harrisonjk.github.io",
-    writeup: "/test",
-    highlight: true,
-  },
-  {
-    name: "HarrisonJK.com",
-    slug: "HarrisonJK.github.io ",
-    tagline: "The source code of this website.",
-    url: "https://harrisonjk.github.io",
-    writeup: "/test",
     highlight: true,
   },
 ];
