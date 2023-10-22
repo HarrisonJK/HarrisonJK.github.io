@@ -11,7 +11,7 @@ export const projectsList = [
     highlight: true,
   },
   {
-    name: "Placeholder Project 1",
+    name: "Pending Project 1",
     slug: "HarrisonJK.github.io ",
     tagline: "Placeholder Project Description",
     url: "https://harrisonjk.github.io",
@@ -19,7 +19,7 @@ export const projectsList = [
     highlight: true,
   },
   {
-    name: "Placeholder Project 2",
+    name: "Pending Project 2",
     slug: "HarrisonJK.github.io ",
     tagline: "Placeholder Project Description",
     url: "https://harrisonjk.github.io",
