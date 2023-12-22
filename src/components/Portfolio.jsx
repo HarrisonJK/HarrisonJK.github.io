@@ -18,14 +18,14 @@ export const projectsList = [
     // writeup: "/test",
     highlight: true,
   },
-  {
-    name: "Pending Project 2",
-    slug: "HarrisonJK.github.io ",
-    tagline: "Placeholder Project Description",
-    url: "https://harrisonjk.github.io",
-    // writeup: "/test",
-    highlight: true,
-  },
+  // {
+  //   name: "Pending Project 2",
+  //   slug: "HarrisonJK.github.io ",
+  //   tagline: "Placeholder Project Description",
+  //   url: "https://harrisonjk.github.io",
+  //   // writeup: "/test",
+  //   highlight: true,
+  // },
   {
     name: "Scribble Me This",
     slug: "/2022-Scribble-Me-This",
