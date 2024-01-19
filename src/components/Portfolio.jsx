@@ -7,15 +7,13 @@ export const projectsList = [
     slug: "HarrisonJK.github.io ",
     tagline: "The source code of this website!",
     url: "https://harrisonjk.github.io",
-    // writeup: "/test",
     highlight: true,
   },
   {
     name: "Pending Project 1",
     slug: "HarrisonJK.github.io ",
     tagline: "Placeholder Project Description",
-    url: "https://harrisonjk.github.io",
-    // writeup: "/test",
+    url: "https://harrisonjk.github.io/demo",
     highlight: true,
   },
   // {

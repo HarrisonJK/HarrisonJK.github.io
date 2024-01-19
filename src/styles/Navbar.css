@@ -24,6 +24,8 @@
   font-size: 1.2rem;
   /* font-size: 3vw; */
   position: relative;
+  opacity: 1; /* Default full */
+  transition: 0.3s ease; /* Smooth transition for opacity on hover */
 }
 
 .navItemStyling {
@@ -39,7 +41,7 @@
   border: 0px solid transparent;
   width: 0%;
   height: 0%;
-  transition: all 0.15s ease;
+  transition: 0.15s ease;
 }
 .navItem::before {
   width: 0%;
@@ -59,6 +61,13 @@
   border-top: 2px solid transparent;
   border-left: 2px solid transparent;
 } /* This is the top left corner */
+
+.navbarTabs:hover .navItem {
+  opacity: 0.5; /* Dim all items when hovering over the navbarTabs */
+} /* Don't put below .navbarTabs .navItem:hover or it will */
+.navbarTabs .navItem:hover {
+  opacity: 1; /* Full opacity for the item being hovered over */
+}
 
 .navItem:hover::before,
 .navItem:hover::after {
