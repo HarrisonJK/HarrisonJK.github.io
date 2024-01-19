@@ -98,7 +98,15 @@ svg.svg {
   transition: 0.15s ease;
 }
 
-.noStyle:hover {
-  color: rgb(255, 255, 255);
-  text-decoration: none;
+.headerLogosRight a {
+  transition: opacity 0.25s ease; /* Smooth transition for opacity on hover */
+  opacity: 1; /* Default opacity is 1*/
+}
+
+.headerLogosRight:hover a {
+  opacity: 0.5; /* Reduced opacity */
+}
+
+.headerLogosRight a:hover {
+  opacity: 1; /* Full opacity for hovered */
 }
