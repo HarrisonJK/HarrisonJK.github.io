@@ -25,9 +25,9 @@ footer a.noStyle {
 }
 
 .footer:hover a.noStyle {
-  opacity: 0.3; /* Reduced opacity */
+  opacity: 0.3; /* Dim all items when hovering over the footer items. Higher opacity due to darker blue background. */
 }
 
 .footer a.noStyle:hover {
-  opacity: 1; /* Full opacity for the hovered */
+  opacity: 1; /* Full opacity for the item being hovered over */
 }

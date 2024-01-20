@@ -78,9 +78,9 @@ textarea:focus {
 }
 
 .contactContainer:hover .noStyle {
-  opacity: 0.5; /* Reduced opacity */
+  opacity: 0.5; /* Dim all items when hovering over the contact items */
 }
 
 .contactContainer .noStyle:hover {
-  opacity: 1; /* Full opacity for the hovered*/
+  opacity: 1; /* Full opacity for the item being hovered over */
 }

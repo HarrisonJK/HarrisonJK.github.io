@@ -104,9 +104,9 @@ svg.svg {
 }
 
 .headerLogosRight:hover a {
-  opacity: 0.5; /* Reduced opacity */
+  opacity: 0.5; /* Dim all items when hovering over the header items */
 }
 
 .headerLogosRight a:hover {
-  opacity: 1; /* Full opacity for hovered */
+  opacity: 1; /* Full opacity for the item being hovered over */
 }
