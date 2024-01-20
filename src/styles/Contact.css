@@ -71,3 +71,16 @@ textarea:focus {
   justify-content: center;
   font-size: 5vmin;
 }
+
+.contactContainer .noStyle {
+  transition: opacity 0.25s ease; /* Smooth transition for opacity on hover */
+  opacity: 1; /* Default opacity is one */
+}
+
+.contactContainer:hover .noStyle {
+  opacity: 0.5; /* Reduced opacity */
+}
+
+.contactContainer .noStyle:hover {
+  opacity: 1; /* Full opacity for the hovered*/
+}
