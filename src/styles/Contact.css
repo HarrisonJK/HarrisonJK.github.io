@@ -72,15 +72,15 @@ textarea:focus {
   font-size: 5vmin;
 }
 
-.contactContainer .noStyle {
+.under .noStyle {
   transition: opacity 0.25s ease; /* Smooth transition for opacity on hover */
   opacity: 1; /* Default opacity is one */
 }
 
-.contactContainer:hover .noStyle {
+.under:hover .noStyle {
   opacity: 0.5; /* Dim all items when hovering over the contact items */
 }
 
-.contactContainer .noStyle:hover {
+.under .noStyle:hover {
   opacity: 1; /* Full opacity for the item being hovered over */
 }
