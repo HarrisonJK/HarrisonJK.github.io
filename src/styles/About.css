@@ -51,6 +51,8 @@
 
 .wikiHover {
   transition: all 0.5s ease;
+  display: block; /* Ensure SVG is treated as a block element */
+  overflow: hidden; /* Hide any overflow */
 }
 
 .wikiHover:hover {
@@ -58,7 +60,14 @@
   transform: scale(2);
 }
 .wikiHover:hover .colorChange {
-  fill: #ff0000;
+  fill: #33def5;
+}
+
+.wikiButton {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
 }
 
 .colorChange {
