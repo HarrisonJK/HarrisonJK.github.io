@@ -19,15 +19,21 @@
     font-size: 3vmin;
   }
 }
-footer a.noStyle {
-  transition: opacity 0.25s ease; /* Smooth transition for opacity on hover */
-  opacity: 1; /* Default opacity is one */
+
+/* Styles for the links in the footer */
+.footer a.noStyle {
+  transition: opacity 0.25s ease; /* Smooth transition for opacity */
+  opacity: 1; /* Default opacity */
 }
 
-.footer:hover a.noStyle {
-  opacity: 0.3; /* Dim all items when hovering over the footer items. Higher opacity due to darker blue background. */
-}
-
+/* Dim only the icons when they are directly hovered */
 .footer a.noStyle:hover {
-  opacity: 1; /* Full opacity for the item being hovered over */
+  opacity: 0.3; /* Dim the icon when the icon itself is hovered */
+}
+
+/* Ensure text elements for non icons are not affected by hover */
+.noHoverEffect {
+  opacity: 1 !important; /* Maintain full opacity */
+  transition: none !important; /* Disable transitions */
+  color: inherit !important; /* Keep original color */
 }
