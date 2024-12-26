@@ -20,20 +20,20 @@
   }
 }
 
-/* Styles for the links in the footer */
+/* Styles for the footer links */
 .footer a.noStyle {
   transition: opacity 0.25s ease; /* Smooth transition for opacity */
-  opacity: 1; /* Default opacity */
+  opacity: 1;
 }
 
-/* Dim only the icons when they are directly hovered */
+/* Dim when directly hovered */
 .footer a.noStyle:hover {
-  opacity: 0.3; /* Dim the icon when the icon itself is hovered */
+  opacity: 0.3;
 }
 
-/* Ensure text elements for non icons are not affected by hover */
+/* Ensure text elements are not affected by hover */
 .noHoverEffect {
-  opacity: 1 !important; /* Maintain full opacity */
-  transition: none !important; /* Disable transitions */
-  color: inherit !important; /* Keep original color */
+  opacity: 1 !important;
+  transition: none !important;
+  color: inherit !important;
 }

@@ -7,6 +7,7 @@
 @import "./styles/Sun.css";
 @import "./styles/Portfolio.css";
 @import "./styles/Contact.css";
+@import "./styles/NameAnimation.css";
 
 a {
   text-decoration: none;

@@ -100,13 +100,13 @@ svg.svg {
 
 .headerLogosRight a {
   transition: opacity 0.25s ease; /* Smooth transition for opacity on hover */
-  opacity: 1; /* Default opacity is 1*/
+  opacity: 1;
 }
 
 .headerLogosRight:hover a {
-  opacity: 0.5; /* Dim all items when hovering over the header items */
+  opacity: 0.5; /* Dim all items when hovering header items */
 }
 
 .headerLogosRight a:hover {
-  opacity: 1; /* Full opacity for the item being hovered over */
+  opacity: 1; /* Full opacity for the item being hovered */
 }
