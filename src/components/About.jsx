@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import before from "../assets/before.svg";
 import after from "../assets/after.svg";
 import welcome from "../assets/welcome.svg";
+// import { NameAnimation } from "./NameAnimation";
 
 export function About() {
   function WikipediaButton() {
@@ -546,6 +547,11 @@ export function About() {
 
   return (
     <div>
+      {/* <div>
+        <section className="">
+          <NameAnimation />
+        </section>
+      </div> */}
       <section>
         <img className="example-block" id="jack " src={welcome} />
       </section>

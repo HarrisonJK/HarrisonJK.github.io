@@ -10,10 +10,11 @@ export const projectsList = [
     highlight: true,
   },
   {
-    name: "Pending Project 1",
-    slug: "HarrisonJK.github.io ",
-    tagline: "Placeholder Project Description",
-    url: "https://harrisonjk.github.io/demo",
+    name: "Sorting Visualizer",
+    slug: "HJK-SortVisualizer",
+    tagline:
+      "An interactive sorting visualizer that brings algorithms to life! Choose from popular sorting methods, adjust speeds, and watch as the data organizes itself in buttery smooth real-time animations. Built from scratch with Vanilla JS, CSS and HTML!",
+    url: "https://harrisonhjk.com/HJK-SortVisualizer",
     highlight: true,
   },
   // {

@@ -1,31 +1,39 @@
+import { useLocation } from "react-router-dom";
+
 export function Header() {
+  const location = useLocation();
+
   return (
     <div className="headerContainer">
       <div className="headerEmptyLeft">
-        <a className="fa fa-linkedin transparent "></a>
+        <a className="fa fa-linkedin transparent"></a>
         &nbsp;
-        <a className=" fa fa-github transparent "></a>
+        <a className="fa fa-github transparent"></a>
         &nbsp;
-        <a className="fa fa-instagram transparent "></a>
+        <a className="fa fa-instagram transparent"></a>
         &nbsp;
-        <a className="fa fa-envelope transparent "></a>
+        <a className="fa fa-envelope transparent"></a>
       </div>
-      <div className="HKHeader">
-        <svg className="svg">
-          <symbol id="s-text">
-            <text textAnchor="middle" x="50%" y="80%">
-              Harrison Katapodis
-            </text>
-          </symbol>
-          <g className="g-ants">
-            <use xlinkHref="#s-text" className="HK"></use>
-            <use xlinkHref="#s-text" className="HK"></use>
-            <use xlinkHref="#s-text" className="HK"></use>
-            <use xlinkHref="#s-text" className="HK"></use>
-            {/* <use xlinkHref="#s-text" className="HK"></use> */}
-          </g>
-        </svg>
-      </div>
+
+      {/* Conditionally render*/}
+      {location.pathname !== "/" && (
+        <div className="HKHeader">
+          <svg className="svg">
+            <symbol id="s-text">
+              <text textAnchor="middle" x="50%" y="80%">
+                Harrison Katapodis
+              </text>
+            </symbol>
+            <g className="g-ants">
+              <use xlinkHref="#s-text" className="HK"></use>
+              <use xlinkHref="#s-text" className="HK"></use>
+              <use xlinkHref="#s-text" className="HK"></use>
+              <use xlinkHref="#s-text" className="HK"></use>
+            </g>
+          </svg>
+        </div>
+      )}
+
       <div className="headerLogosRight header">
         <a
           className="fa fa-linkedin noStyle"
