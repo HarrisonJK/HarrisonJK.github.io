@@ -76,13 +76,6 @@
   background-color: #fedc4a;
 }
 
-.easy-grid {
-  display: grid;
-  grid-gap: var(--g, 2rem);
-  grid-template-columns: 1fr 1fr;
-  grid-auto-flow: column;
-}
-
 .example-block {
   display: flex;
   justify-content: center;
@@ -93,9 +86,24 @@
   width: 100vw;
 }
 
+.easy-grid {
+  display: grid;
+  grid-gap: var(--g, 2rem);
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+  margin: 0 auto;
+}
+
 .example-blockmini {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: #0271bc;
   border-radius: 1rem;
+  width: 35vw;
+  height: 35vw;
 }
 .italic {
   font-style: italic;

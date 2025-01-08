@@ -553,7 +553,7 @@ export function About() {
         </section>
       </div>
       <section>
-        <img className="example-block" id="jack " src={welcome} />
+        <img className="example-block" src={welcome} />
       </section>
       <div>
         <section className="center aboutMe rainbowContainer montserrat">
