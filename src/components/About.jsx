@@ -572,34 +572,51 @@ export function About() {
       </section>
       <div className="aboutMeContainer">
         <section className="aboutMe rainbowContainer montserrat">
-          <span className="center italic">
-            *The End* <br></br>
-          </span>
-          Now yes this comic strip could have been a little longer, but
-          unfortunately I am not an animator as much as my expertly drawn stick
-          figures may have lead you to believe otherwise.
-          <br></br>
-          <br></br> I am a software engineer and in the process of creating this
-          website I was able to express my love of problem solving, technology,
-          design, comedy, being greek, comic books, and so much more that it
-          became a microcosm of why I fell in love with software development in
-          the first place:
-          <span className="center italic">
-            <br></br> The ability to be creative individually and as a group to
-            solve real problems anywhere in the world with just a computer, the
-            internet, and the audacity to try to be the solution.<br></br>
-          </span>
-          <br></br> It's a very liberating feeling unique to this profession and
-          it's my hope that I can use this skill set to help make the world a
-          better place.
-          <br></br>
-          <br></br>
-          Hope to have given you some insight into who I am and I would love to
-          talk further if you have any follow-up questions!
-          <br></br>
-          <br></br>
-          Check out some of of my favorite projects I've created so far{" "}
-          <Link to="/portfolio">here!</Link>
+          <p className="center italic">*The End*</p>
+          <p>
+            Yes, this comic strip could have been a little longer—but, alas, I
+            am not much of an animator, as my expertly drawn stick figures might
+            have led you to believe.
+          </p>
+          <p>
+            As a software engineer, creating this website allowed me to explore
+            a variety of passions, including:
+          </p>
+          <ul>
+            <li>
+              🤣 <strong>Comedy</strong>
+            </li>
+            <li>
+              🧩 <strong>Problem-solving</strong>
+            </li>
+            <li>
+              👨‍💻 <strong>Design</strong>
+            </li>
+            <li>
+              🎭 <strong>Storytelling (just to name a few).</strong>
+            </li>
+          </ul>
+          <p>
+            This project became a microcosm of why I fell in love with software
+            development:
+          </p>
+          <blockquote className="memorable">
+            <p>
+              {" "}
+              The ability to <strong>creatively solve problems</strong> with
+              just a computer, the internet, and the drive to create{" "}
+              <strong>meaningful positive change in the world</strong> that's{" "}
+              <strong>uniquely you</strong>.
+            </p>
+          </blockquote>
+          <p>
+            Hopefully this gave you glimpse into who I am, I’d love to chat if
+            you have any follow-up questions.
+          </p>
+          <p>
+            Check out some of my favorite projects{" "}
+            <Link to="/portfolio">here!</Link>
+          </p>
         </section>
       </div>
       <div className="aboutMeContainer ">
@@ -608,16 +625,17 @@ export function About() {
             <mark className="highlight">Highlights</mark>
           </h1>
           <li className="space">
-            Graduate of Cornell University and Fullstack Academy
+            Graduate of <mark className="highlight">Cornell University</mark>{" "}
+            and Fullstack Academy
           </li>
-          <li>PERN Stack-educated and learning Python</li>
+          <li>
+            <mark className="highlight">PERN</mark> Stack-educated (learning
+            Python)
+          </li>
           <li>
             Passionate about helping others and making the world a better place
           </li>
-          <li>
-            Lifelong learner whose always trying to be better than I was the day
-            before
-          </li>
+          <li>Lifelong learner continually striving to grow and improve</li>
 
           <div className="montserrat center botPadding">
             Wikipedia button (Some of my favorites!)

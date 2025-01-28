@@ -73,3 +73,13 @@
   height: 100%;
   padding-top: calc(100vh / 10);
 }
+
+.nameAnimationContainer text {
+  font-size: 5vw;
+}
+
+@media (max-width: 1300px) {
+  .nameAnimationContainer text {
+    font-size: 9vw;
+  }
+}

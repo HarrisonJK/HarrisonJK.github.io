@@ -5,6 +5,20 @@
   background: #e8e8e8;
 }
 
+.memorable {
+  font-size: 1.5rem;
+  line-height: 1.8;
+  border-left: 5px solid #0271bc;
+  border-right: 5px solid #0271bc;
+  padding: 15px 20px;
+  background-color: #f9f9f9;
+  margin: 20px 0;
+}
+
+.memorable strong {
+  color: #0271bc;
+}
+
 @media (max-width: 1140px) {
   .aboutMe {
     margin: 25px;
@@ -45,8 +59,8 @@
 
 .wikiHover {
   transition: all 0.5s ease;
-  display: block; /* Ensure SVG is treated as a block element */
-  overflow: hidden; /* Hide any overflow */
+  display: block;
+  overflow: hidden;
 }
 
 .wikiHover:hover {
