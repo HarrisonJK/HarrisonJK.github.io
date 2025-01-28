@@ -8,10 +8,10 @@ export function NameAnimation() {
           </text>
         </symbol>
         <g className="g-ants">
-          <use xlinkHref="#s-text" className="nameAnimationHK"></use>
-          <use xlinkHref="#s-text" className="nameAnimationHK"></use>
-          <use xlinkHref="#s-text" className="nameAnimationHK"></use>
-          <use xlinkHref="#s-text" className="nameAnimationHK"></use>
+          <use href="#s-text" className="nameAnimationHK"></use>
+          <use href="#s-text" className="nameAnimationHK"></use>
+          <use href="#s-text" className="nameAnimationHK"></use>
+          <use href="#s-text" className="nameAnimationHK"></use>
         </g>
       </svg>
     </div>

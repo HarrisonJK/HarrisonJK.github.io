@@ -25,10 +25,10 @@ export function Header() {
               </text>
             </symbol>
             <g className="g-ants">
-              <use xlinkHref="#s-text" className="HK"></use>
-              <use xlinkHref="#s-text" className="HK"></use>
-              <use xlinkHref="#s-text" className="HK"></use>
-              <use xlinkHref="#s-text" className="HK"></use>
+              <use href="#s-text" className="HK"></use>
+              <use href="#s-text" className="HK"></use>
+              <use href="#s-text" className="HK"></use>
+              <use href="#s-text" className="HK"></use>
             </g>
           </svg>
         </div>
