@@ -42,8 +42,14 @@
 
 .nameAnimationSVG text {
   fill: black;
-  fill-opacity: 0;
-  animation: nameAnimationFadeIn 2.75s ease-in 6.5s forwards;
+  fill-opacity: 1;
+}
+
+@supports (animation-timeline: view()) {
+  .nameAnimationSVG text {
+    fill-opacity: 0;
+    animation: nameAnimationFadeIn 2.75s ease-in 6.5s forwards;
+  }
 }
 
 @keyframes nameAnimationFadeIn {
@@ -54,7 +60,6 @@
     fill-opacity: 1;
   }
 }
-
 .nameAnimationFullscreen {
   display: flex;
   justify-content: center;
